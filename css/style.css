@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cube {
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: red;
+    z-index: -5;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    border: 2px solid greenyellow;
+    background: grey;
+    display: block;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#step {
+    top: 500px;
+    left: 500px;
+}
+#stop {
+    top: 500px;
+    left: 700px;
+}
+#spin {
+    top: 500px;
+    left: 900px;
+}
